@@ -29,7 +29,7 @@ export default async function handler(
                     "Email": body.email,
                     "Institution": body.institution,
                     "Student Status": body.studentstatus,
-                    "title": body.title
+                    "Title": body.title
                 }
             },
         ]);
