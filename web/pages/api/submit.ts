@@ -9,7 +9,8 @@ type Data = {
     institution: string,
     studentstatus: string,
     abstract: string,
-    keywords: string
+    keywords: string,
+    title: string
 }
 
 export default async function handler(
@@ -27,7 +28,8 @@ export default async function handler(
                     "Name": body.name,
                     "Email": body.email,
                     "Institution": body.institution,
-                    "Student Status": body.studentstatus
+                    "Student Status": body.studentstatus,
+                    "title": body.title
                 }
             },
         ]);
