@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Header from '../components/Header'
 import Form from '../components/SubmissionForm'
 
@@ -13,14 +12,7 @@ export default function Home() {
       </Head>
       <Header/>
       <main className='container w-10/12 mx-auto my-20'>
-        <p className=''>CFP content</p>
-        <div className='flex justify-center my-10'>
-          <Link href="/cfpsubmit">
-            <button className='bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded'>
-              Go to submission portal
-            </button>
-          </Link>
-        </div>
+        <p className='flex justify-center'>Please check the email provided for confirmation of submission.</p>
       </main>
     </div>
   )
