@@ -1,5 +1,7 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next'
+import Airtable from 'airtable'
+
+let base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(process.env.AIRTABLE_BASE!);
 
 type Data = {
     name: string,
@@ -10,18 +12,29 @@ type Data = {
     keywords: string
 }
 
-export default function handler(
+export default async function handler(
     req: NextApiRequest,
     res: NextApiResponse<Data>
 ) {
     const body = req.body
-    res.status(200).json(
-        {
-            name: `${body.name}`,
-            email: `${body.email}`,
-            institution: `${body.institution}`,
-            studentstatus: `${body.studentstatus}`,
-            abstract: `${body.abstract}`,
-            keywords: `${body.keywords}`,
-        })
+    console.log(`Form submission received`)
+    try {
+        const records = await base('Submissions').create([
+            {
+                "fields": {
+                    "Abstract": body.abstract,
+                    "Keywords": body.keywords,
+                    "Name": body.name,
+                    "Email": body.email,
+                    "Institution": body.institution,
+                    "Student Status": body.studentstatus
+                }
+            },
+        ]);
+        console.log("Success");
+        return res.redirect('/cfp/confirmation');
+    } catch (err) {
+        console.log(`Error: ${err}`);
+        return res.redirect('/cfp/failure');
+    }
 }

@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from '../components/Header'
-import Form from '../components/SubmissionForm'
+import Header from '../../components/Header'
+import Form from '../../components/SubmissionForm'
 
 export default function Home() {
   return (
@@ -11,9 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <main className='my-20'>
-        <h1 className='text-3xl font-extrabold flex justify-center mb-10 text-jet'>Submission Portal</h1>
-        <Form/>
+      <main className='container w-10/12 mx-auto my-20'>
+        <p className='flex justify-center'>Thank you for your submission. Please check the email provided for confirmation of submission.</p>
       </main>
     </div>
   )

@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from '../components/Header'
-import Form from '../components/SubmissionForm'
+import Header from '../../components/Header'
+import Form from '../../components/SubmissionForm'
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <Header/>
       <main className='container w-10/12 mx-auto my-20'>
-        <p className='flex justify-center'>Please check the email provided for confirmation of submission.</p>
+        <p className='flex justify-center'>There was an error in submitting your abstract. Please contact the conference organizers.</p>
       </main>
     </div>
   )

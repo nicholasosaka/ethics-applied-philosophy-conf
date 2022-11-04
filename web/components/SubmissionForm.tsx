@@ -21,8 +21,8 @@ const Form = () => {
             <p className='font-light tracking-tight'>This year, we will be holding a special panel with submissions submitted by undergraduates. Please indicate your student status.</p>
             <select name='studentstatus' id='studentstatus' className='form-select sm:w-2/3 mt-2' required>
                 <option value="">Please select an option</option>
-                <option value="graduate">Graduate student</option>
-                <option value="undergraduate">Undergraduate student</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Undergraduate">Undergraduate</option>
             </select>
         </div>
         <div className='grid my-5'>
@@ -44,6 +44,5 @@ const Form = () => {
     </form>
     )
   }
-  
-
+    
   export default Form
