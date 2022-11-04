@@ -11,7 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <main>
+      <main className='my-20'>
+        <h1 className='text-3xl font-extrabold flex justify-center mb-10 text-jet'>Submission Portal</h1>
         <Form/>
       </main>
     </div>
