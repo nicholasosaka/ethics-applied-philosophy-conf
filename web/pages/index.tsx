@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import CFP from '../components/CFP'
 import Header from '../components/Header'
-import Form from '../components/SubmissionForm'
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Header/>
       <main className='container w-10/12 mx-auto my-20'>
-        <p className=''>CFP content</p>
+        <CFP/>
         <div className='flex justify-center my-10'>
           <Link href="/cfp/form">
             <button className='bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded'>

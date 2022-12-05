@@ -17,12 +17,13 @@ const Form = () => {
             <input name='institution' id='institution' type="text" className='form-input sm:w-2/3 mt-2' required/>
         </div>
         <div className='grid my-5'>
-            <label htmlFor="studentstatus" className='text-xl font-semibold'>Student Status</label>
+            <label htmlFor="studentstatus" className='text-xl font-semibold'>Enrollment Status</label>
             <p className='font-light tracking-tight'>This year, we will be holding a special panel with submissions submitted by undergraduates, please indicate your student status</p>
             <select name='studentstatus' id='studentstatus' className='form-select sm:w-2/3 mt-2' required>
                 <option value="">Please select an option</option>
                 <option value="Graduate">Graduate</option>
                 <option value="Undergraduate">Undergraduate</option>
+                <option value="Independent">Independent</option>
             </select>
         </div>
         <div className='grid my-5'>
