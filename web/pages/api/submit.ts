@@ -5,21 +5,16 @@ import nodemailer from 'nodemailer'
 let base = new Airtable({ apiKey: process.env.AIRTABLE_API_KEY }).base(process.env.AIRTABLE_BASE!);
 
 type Data = {
-    name: string,
-    email: string,
-    institution: string,
-    studentstatus: string,
-    abstract: string,
-    keywords: string,
-    title: string
+    message: string
 }
 
 export default async function handler(
     req: NextApiRequest,
-    res: NextApiResponse<Data>
+    res: NextApiResponse<any>
 ) {
     const body = req.body
     console.log(`Form submission received`)
+    const date = new Date();
     base('Submissions').create([
         {
             "fields": {
@@ -34,7 +29,10 @@ export default async function handler(
         },
     ]).then(async (records) => {
         console.log(`ID: ${records[0].getId()}`);
-        res.redirect('/cfp/confirmation')
-    }).catch(e => console.error(e))
+        res.status(200).send(`Thank you for your submission. Your submission has been successfully received.\n\nSubmission ID: ${records[0].getId()}, processed at ${date.toISOString()}`)
+    }).catch(e => {
+        console.error(e)
+        res.status(500).send('There was an error in processing your submission.\n\nPlease contact Steve Muir or Nikko Osaka, emails are on the submission portal page. Thank you!')
+    })
 
 }
