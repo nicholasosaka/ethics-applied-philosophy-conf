@@ -34,8 +34,7 @@ export default async function handler(
         },
     ]).then(async (records) => {
         console.log(`ID: ${records[0].getId()}`);
-
+        res.redirect('/cfp/confirmation')
     }).catch(e => console.error(e))
 
-    res.redirect('/cfp/confirmation')
 }
