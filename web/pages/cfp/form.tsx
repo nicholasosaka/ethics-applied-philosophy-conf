@@ -15,7 +15,6 @@ export default function Home() {
         <h1 className='text-3xl font-extrabold flex justify-center mb-10 text-jet'>Submission Portal</h1>
         <p className='text-jet flex justify-center'>If there is an accessibility issue prohibiting your submission, please contact Steve Muir (Steve dot Muir at uncc dot edu)</p>
         <p className='text-jet flex justify-center mb-10'>If there is a technical issue prohibiting your submission, please contact Nikko Osaka (nosaka at uncc dot edu)</p>
-
         <Form/>
       </main>
     </div>

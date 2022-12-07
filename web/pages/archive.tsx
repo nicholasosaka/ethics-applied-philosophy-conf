@@ -10,8 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <main>
-        <p>Archive</p>
+      <main className='py-5 text-jet text-center'>
+        <p>Coming Soon</p>
       </main>
     </div>
   )
