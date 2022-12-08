@@ -8,6 +8,8 @@ const CFP = () => {
         <h2 className='text-2xl font-bold'>Ethics and Applied Philosophy Conference</h2>
         <h2 className='text-2xl font-bold'>April 29 & 30, 2023</h2>
         <h3 className='text-xl'>Virtually via Zoom</h3>
+        <p className='pt-2 font-bold'>With keynote speaker:</p>
+        <p className='font-bold italic'>Johnathan Flowers, California State University, Northridge</p>
       </div>
 
       <p className='italic'>Submissions on any topic within Ethics and Applied Philosophy (broadly construed) will be considered.</p>
