@@ -43,7 +43,7 @@ const Form = () => {
                 <p className='font-light tracking-tight'>List the keywords (comma separated) associated with your paper</p>
                 <input name='keywords' id='keywords' type="text" className='form-input mt-2' required/>
             </div>
-            <p className='font-light tracking-tight mx-auto w-fit mt-16'>Please review prior to submission</p>
+            <p className='font-light tracking-tight mx-auto w-fit mt-16'>Please review prior to submission. All submissions are anonymized automatically, and only the title, abstract, and keywords are provided to reviewers.</p>
             <div className='w-fit mx-auto mt-5 bg-green-100'>
                 <button className='duration-200 bg-jet hover:bg-gray-500 text-white font-bold py-3 px-8 rounded-xl'>
                     Submit
