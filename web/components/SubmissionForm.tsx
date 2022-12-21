@@ -43,7 +43,8 @@ const Form = () => {
                 <p className='font-light tracking-tight'>List the keywords (comma separated) associated with your paper</p>
                 <input name='keywords' id='keywords' type="text" className='form-input mt-2' required/>
             </div>
-            <p className='font-light tracking-tight mx-auto w-fit mt-16'>Please review prior to submission. All submissions are anonymized automatically, and no personally identifiable information is provided to reviewers.</p>
+            <p className='font-light tracking-tight mx-auto w-fit mt-16'>Please review prior to submission. All submissions are anonymized, and no personally identifiable information is provided to reviewers.</p>
+            <p className='font-light tracking-tight mx-auto w-fit mt-2'>Please check your email for a confirmation within 24 hours. If you do not hear back within 24 hours, please email Nikko Osaka (nosaka at uncc dot edu)</p>
             <div className='w-fit mx-auto mt-5 bg-green-100'>
                 <button className='duration-200 bg-jet hover:bg-gray-500 text-white font-bold py-3 px-8 rounded-xl'>
                     Submit
