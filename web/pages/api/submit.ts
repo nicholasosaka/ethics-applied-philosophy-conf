@@ -13,7 +13,7 @@ export default async function handler(
     res: NextApiResponse<any>
 ) {
     const body = req.body
-    console.log(`Form submission received (${body.title}), ${body.email}`)
+    console.log(`Form submission received (${body.title})`)
     const date = new Date();
     base('Submissions').create([
         {
@@ -29,7 +29,7 @@ export default async function handler(
         },
     ]).then(async (records) => {
         console.log(`ID: ${records[0].getId()}`);
-        res.status(200).send(`Thank you for your submission. An organizer will be in contact within 72 hours to confirm submission. If you do not hear back within 72 hours, please email Nikko Osaka (email available on the submission portal page).\n\nSubmission ID: ${records[0].getId()}, processed at ${date.toISOString()}`)
+        res.status(200).send(`Thank you for your submission. Please check your email for a confirmation within 24 hours. If you do not hear back within 24 hours, please email Nikko Osaka (email available on the submission portal page).\n\nSubmission ID: ${records[0].getId()}, processed at ${date.toISOString()}`)
     }).catch(e => {
         console.error(e)
         res.status(500).send('There was an error in processing your submission.\n\nPlease contact Steve Muir or Nikko Osaka, emails are on the submission portal page. Thank you!')
