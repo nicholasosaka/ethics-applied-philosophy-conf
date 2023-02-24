@@ -15,11 +15,9 @@ export default function Home() {
       <main className='container w-10/12 mx-auto my-20'>
         <CFP/>
         <div className='flex justify-center my-10'>
-          <Link href="/cfp/form">
-            <button className='bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded'>
+            <button className='bg-gray-500 text-white font-bold py-2 px-4 rounded'>
               Go to submission portal
             </button>
-          </Link>
         </div>
       </main>
     </div>

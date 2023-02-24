@@ -35,7 +35,7 @@ const CFP = () => {
       <div className='pt-5'>
         <h2 className='font-bold italic'>Submission deadline is February 24, 2023</h2>
         <h2>Application decisions will be communicated by March 27, 2023</h2>
-        <h2>Please submit application materials below</h2>
+        <h2>The submission deadline has passed. We are currently reviewing submissions and will be in touch in late March.</h2>
       </div>
     </div>
     )
