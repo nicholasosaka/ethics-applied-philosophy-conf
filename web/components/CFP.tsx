@@ -6,7 +6,7 @@ const CFP = () => {
       <div className='pb-10'>
         <h1 className='text-3xl font-extrabold'>Call for Abstracts</h1>
         <h2 className='text-2xl font-bold'>Ethics and Applied Philosophy Conference</h2>
-        <h2 className='text-2xl font-bold'>April 29 & 30, 2023</h2>
+        <h2 className='text-2xl font-bold'>April 28 & 29, 2023</h2>
         <h3 className='text-xl'>Virtually via Zoom</h3>
         <p className='pt-2 font-bold'>With keynote speaker:</p>
         <p className='font-bold italic'>Johnathan Flowers, California State University, Northridge</p>
