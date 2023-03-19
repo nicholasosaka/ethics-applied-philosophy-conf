@@ -4,7 +4,7 @@ const Header = () => {
     return (
     <div className='py-5 text-jet'>
         <div className='mx-5'>
-            <h1 className='text-xl font-extrabold'>Ethics and Applied Philosophy Conference</h1>
+            <h1 className='text-xl font-extrabold'>Ethics and Applied Philosophy Graduate Conference</h1>
             <h2 className='text-md'>at UNC Charlotte, hosted by the Philosophical Union of UNC Charlotte</h2>
         </div>
         <nav className='mx-5 mt-5'>
