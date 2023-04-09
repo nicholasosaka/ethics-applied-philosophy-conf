@@ -20,8 +20,9 @@ export default function Home() {
             <h1 className='text-2xl font-bold'>April 28 & 29, 2023</h1>
           </div>
           <div className='py-5 text-center'>
-            <h1 className='text-2xl font-bold'>Zoom Access</h1>
-            <p>The links to access Zoom will be available closer to the conference dates.</p>
+            <h1 className='text-2xl font-bold'>Zoom Access & Contact Form</h1>
+            <p>The links to access Zoom will be available <i>here</i> closer to the conference dates.</p>
+            <p>Please sign up for reminders and notification of Zoom link availability here: <a href="https://forms.gle/6fEY2bnkdRGxk7pW9" className='underline'>https://forms.gle/6fEY2bnkdRGxk7pW9</a></p>
           </div>
           <div className='py-5'>
             <h1 className='text-2xl font-bold text-center'>Day 1 (Friday, April 28)</h1>
