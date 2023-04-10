@@ -120,8 +120,8 @@ export default function Home() {
             <p><b>Kimberly Beasley</b> (she/her), Kent State University</p>
             <p><b>Erica Bigelow</b> (she/they), University of Washington</p>
             <div className='pl-10'>
-              <p>Twitter: @EricaBigelow</p>
-              <p>Instagram: @ericapbig</p>
+              <p>Twitter: <a href="https://twitter.com/EricaBigelow" className='underline'>@EricaBigelow</a></p>
+              <p>Instagram: <a href="https://www.instagram.com/ericapbig/" className='underline'>@ericapbig</a></p>
             </div>
             <p><b>Urna Chakrabarty</b> (she/her), Cornell University</p>
             <p><b>Jordan Desmond</b> (he/him), Queen's University</p>
@@ -131,8 +131,8 @@ export default function Home() {
             </div>
             <p><b>Larissa Kolias</b> (She/her), The University of Calgary</p>
             <div className='pl-10'>
-              <p>PhilPeople: Larissa Kolias</p>
-              <p>LinkedIn: Larissa Kolias</p>
+              <p>PhilPeople: <a href="https://philpeople.org/profiles/larissa-kolias" className='underline'>Larissa Kolias</a></p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/larissakolias/" className='underline'>Larissa Kolias</a></p>
             </div>
             <p><b>Brianna Larson</b> (She/They), Independent Scholar</p>
             <p><b>Moya Mapps</b> (they/them), Yale University</p>
@@ -141,7 +141,7 @@ export default function Home() {
             </div>
             <p><b>Sean Maroney</b> (He), King's College London</p>
             <div className='pl-10'>
-              <p>Instagram: @komodobill</p>
+              <p>Instagram: <a href="https://www.instagram.com/komodobill/" className='underline'>@komodobill</a></p>
             </div>
             <p><b>Ryan Miller</b> (he/him), University of Geneva</p>
             <div className='pl-10'>
@@ -151,24 +151,24 @@ export default function Home() {
             <p><b>Ricky Mouser</b> (he/him), Indiana University Bloomington</p>
             <p><b>Margaret Murphy</b> (she/they), American University</p>
             <div className='pl-10'>
-              <p>LinkedIn: Margaret Murphy</p>
-              <p>Twitter: @margecmurph</p>
-              <p>Instagram: @ma.gg13</p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/margaret-murphy-060b34191/" className='underline'>Margaret Murphy</a></p>
+              <p>Twitter: <a href="https://twitter.com/margecmurph" className='underline'>@margecmurph</a></p>
+              <p>Instagram: <a href="https://www.instagram.com/ma.gg13/" className='underline'>@ma.gg13</a></p>
             </div>
             <p><b>Bryson Ng</b> (He/Him), Nanyang Technological University</p>
             <p><b>Stefano Pinzan</b> (He/Him), Vita-Salute San Raffaele University & University of California, Los Angeles</p>
             <p><b>Linda Priano</b> (She/Her), University of Milan</p>
             <p><b>Valena M. C. Reich</b> (She/her), King's College London</p>
             <div className='pl-10'>
-              <p>LinkedIn: Valena M. C. Reich</p>
+              <p>LinkedIn: <a href='https://www.linkedin.com/in/valena-reich-2aaa2a1b1/' className='underline'>Valena M. C. Reich</a></p>
             </div>
             <p><b>Rebecca Sanaeikia</b> (She/Her), University of Rochester</p>
             <div className='pl-10'>
-              <p>Twitter: @logavaguy</p>
+              <p>Twitter:  <a href="https://twitter.com/logavaguy" className='underline'>@logavaguy</a></p>
             </div>
             <p><b>Eli Garrett Schantz</b> (He/him/his), Indiana University School of Medicine-South Bend</p>
             <div className='pl-10'>
-              <p>Mastodon: @eligschantz@med-mastodon.com</p>
+              <p>Mastodon: <a href="https://med-mastodon.com/@eligschantz" className='underline'>@eligschantz@med-mastodon.com</a></p>
             </div>
             <p><b>Peter Visscher</b> (He/Him), Villanova University</p>
             <p><b>Matthew Wiseman</b> (he/him), University of Southern California</p>
