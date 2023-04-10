@@ -135,6 +135,9 @@ export default function Home() {
               <p>LinkedIn: <a href="https://www.linkedin.com/in/larissakolias/" className='underline'>Larissa Kolias</a></p>
             </div>
             <p><b>Brianna Larson</b> (She/They), Independent Scholar</p>
+            <div className='pl-10'>
+              <p>Twitter: <a href="https://twitter.com/brilarsonn" className='underline'>@brilarsonn</a></p>
+            </div>
             <p><b>Moya Mapps</b> (they/them), Yale University</p>
             <div className='pl-10'>
               <p>Website: <a href="https://moyamapps.com" className='underline'>moyamapps.com</a></p>
