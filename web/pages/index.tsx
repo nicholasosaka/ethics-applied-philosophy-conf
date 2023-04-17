@@ -159,6 +159,9 @@ export default function Home() {
               <p>Instagram: <a href="https://www.instagram.com/ma.gg13/" className='underline'>@ma.gg13</a></p>
             </div>
             <p><b>Bryson Ng</b> (He/Him), Nanyang Technological University</p>
+            <div className='pl-10'>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/bryson-ng-319116188/" className='underline'>Bryson Ng</a></p>
+            </div>
             <p><b>Stefano Pinzan</b> (He/Him), Vita-Salute San Raffaele University & University of California, Los Angeles</p>
             <p><b>Linda Priano</b> (She/Her), University of Milan</p>
             <p><b>Valena M. C. Reich</b> (She/her), King's College London</p>
