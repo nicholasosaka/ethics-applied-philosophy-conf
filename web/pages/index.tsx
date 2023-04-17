@@ -21,7 +21,7 @@ export default function Home() {
           </div>
           <div className='py-5 text-center'>
             <h1 className='text-2xl font-bold'>Zoom Access</h1>
-            <p>Please note that we are using three separate access links, one for each block of sessions.</p>
+            <p>Please note that we are using two separate access links, one for each day.</p>
             <div className='py-3'>
               <div className='py-2'>
                 <p><b>Day 1</b></p>
