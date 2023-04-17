@@ -20,9 +20,18 @@ export default function Home() {
             <h1 className='text-2xl font-bold'>April 28 & 29, 2023</h1>
           </div>
           <div className='py-5 text-center'>
-            <h1 className='text-2xl font-bold'>Zoom Access & Contact Form</h1>
-            <p>The links to access Zoom will be available <i>here</i> closer to the conference dates.</p>
-            <p>Please sign up for reminders and notification of Zoom link availability here: <a href="https://forms.gle/6fEY2bnkdRGxk7pW9" className='underline'>https://forms.gle/6fEY2bnkdRGxk7pW9</a></p>
+            <h1 className='text-2xl font-bold'>Zoom Access</h1>
+            <p>Please note that we are using three separate access links, one for each block of sessions.</p>
+            <div className='py-3'>
+              <div className='py-2'>
+                <p><b>Day 1</b></p>
+                <a href="https://charlotte-edu.zoom.us/j/96594662034" className='underline'>https://charlotte-edu.zoom.us/j/96594662034</a>
+              </div>
+              <div className='py-2'>
+                <p><b>Day 2</b></p>
+                <a href="https://charlotte-edu.zoom.us/j/99320707141" className='underline'>https://charlotte-edu.zoom.us/j/99320707141</a>
+              </div>
+            </div>
           </div>
           <div className='py-5'>
             <h1 className='text-2xl font-bold text-center'>Day 1 (Friday, April 28)</h1>
@@ -89,7 +98,7 @@ export default function Home() {
                 <p>Speaker: Ricky Mouser (he/him): <q>Surviving and Thriving</q></p>
               </div>
             </div>
-            <h2 className='text-1xl font-bold'>Lunch — 12:00pm ET</h2>
+            <h2 className='text-1xl font-bold py-5'>Lunch — 12:00pm ET</h2>
             <h2 className='text-1xl font-bold'>Plenary Session (1:30pm ET) — Keynote by Johnathan Flowers (CSU Northridge)</h2>
             <div className='pl-10 pt-2'>
               <p>Title: <q>An Applied Ethics of Inquiry: Beyond ‘Just Asking Questions’</q></p>
