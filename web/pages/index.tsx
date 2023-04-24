@@ -43,7 +43,7 @@ export default function Home() {
               <h2 className='text-1xl font-bold'>Session 1 (3:00pm ET) — <i>Conceptualizing Harm in Bioethics Contexts</i></h2>
               <div className='pl-10'>
                 <p>Moderator: Jahnavi Patel (she/her)</p>
-                <p>Speaker: Stefano Pinzan (He/Him), <q>The Role of Empathy in a Kantian Ethics of Care</q></p>
+                <p>Speaker: Stefano Pinzan (He/Him), <q>The Role of Emotions in a Kantian Ethics of Care</q></p>
                 <p>Speaker: O. René Garrett Wright (René/They/Them/Theirs): <q>Sexual Concern: On People Living with HIV/AIDS, LGBTQ+ Panic, and Non-disclosure</q> (Exemplary Undergraduate Philosopher 2023)</p>
                 <p>Speaker: Erica Bigelow (she/they): <q>The Metaphorical is Medical is Metaphorical: Racist Discourses in the ‘War’ on COVID</q></p>
               </div>
