@@ -13,7 +13,7 @@ export default function Home() {
       <Header/>
       <main className='py-5 text-jet text-center'>
         <p className='font-bold'>2023</p>
-        <li className='underline'><Link href="/archive/2023">Third Annual Ethics and Applied Philosophy Graduate Conference</Link></li>
+        <li className='underline'><Link href="/archive/2023">Fifth Annual Ethics and Applied Philosophy Graduate Conference</Link></li>
       </main>
     </div>
   )

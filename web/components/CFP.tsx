@@ -11,7 +11,7 @@ const CFP = () => {
         <div className='text-left flex flex-row'>
           <div className="inline-block h-40 lg:w-6 self-stretch opacity-100 bg-jet lg:mr-8 lg:mt-1"></div>
           <div className=''>
-            <h2 className='text-xl font-normal'>4<sup>th</sup> Annual Ethics and Applied Philosophy Graduate Conference hosted by the Philosophical Union of the University of North Carolina at Charlotte</h2>
+            <h2 className='text-xl font-normal'>6<sup>th</sup> Annual Ethics and Applied Philosophy Graduate Conference hosted by the Philosophical Union of the University of North Carolina at Charlotte</h2>
             <h2 className='text-xl font-normal pt-4'>April 26 - 28, 2024, virtually</h2>
           </div>
         </div>
