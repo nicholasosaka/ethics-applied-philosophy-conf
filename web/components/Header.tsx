@@ -9,7 +9,7 @@ const Header = () => {
         </div>
         <nav className='mx-5 mt-5'>
           <ol className='flex justify-center gap-8 font-bold tracking-tight'>
-            <li><Link href="/">conference 2023</Link></li>
+            <li><Link href="/">conference 2024</Link></li>
             <li><Link href="/about">about</Link></li>
             <li><Link href="/archive">archive</Link></li>
           </ol>
