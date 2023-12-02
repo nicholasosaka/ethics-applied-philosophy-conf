@@ -11,15 +11,25 @@ export default function Home() {
       </Head>
       <Header/>
       <main className='py-5 text-jet text-center'>
-        <h1 className='text-xl font-bold'>about the 2023 conference</h1>
-        <p className='py-3'>The conference will be held virtually this year to create a more accessible environment.</p>
-        <p>Conference organizers for the 2023 conference, in no order:</p>
-        <p>Will Wright</p>
-        <p>Steve Muir</p>
-        <p>Nicholas Osaka</p>
-        <p>Erica Nelson</p>
-        <p>Erik Bahnson</p>
-        <p>Trey Irby</p>
+        <h1 className='text-xl font-bold'>about the conference</h1>
+        <p className='py-3 l:w-1/2 w-3/4 mx-auto'>To forward our ends of creating a more accessible conference environment, the Ethics and Applied Philosophy Graduate Conference is held virtually each year.</p>
+        <div className='mt-10'>
+          <p className='font-bold'>Conference organizers for the 2024 conference, in no order:</p>
+          <p>Nicholas Osaka</p>
+          <p>Steve Muir</p>
+          <p>Lilly Tran</p>
+          <p>Billie Waller</p>
+          <p>and the rest of the Philosophical Union of UNC Charlotte.</p>
+        </div>
+        <div className='mt-10'>
+          <p className='font-bold'>Conference organizers for the 2023 conference, in no order:</p>
+          <p>Will Wright</p>
+          <p>Steve Muir</p>
+          <p>Nicholas Osaka</p>
+          <p>Erica Nelson</p>
+          <p>Erik Bahnson</p>
+          <p>Trey Irby</p>
+        </div>
         <p>and the rest of the Philosophical Union of UNC Charlotte.</p>
       </main>
     </div>

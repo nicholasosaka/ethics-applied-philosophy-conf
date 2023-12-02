@@ -11,6 +11,7 @@ module.exports = {
         ghost: "#F4F4F4",
         slate: "#6D8EA0",
         chestnut: "#BC4749",
+        cream: "#FCEEDE"
       },
     },
   },
