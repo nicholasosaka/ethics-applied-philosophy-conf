@@ -4,12 +4,12 @@ const CFP = () => {
     return (
     <div className='text-jet text-center'>
       <h1 className='text-3xl font-extrabold lg:mb-5 uppercase text-left lg:text-center'>Call for Abstracts</h1>
-      <div className='mb-10 flex lg:flex-row flex-col gap-x-10 lg:w-2/3 lg:mx-auto'>
+      <div className='mb-10 flex xl:flex-row flex-col xl:gap-x-32 lg:w-2/3 lg:mx-auto'>
         <div>
-          <h2 className='text-5xl font-bold uppercase my-5 lg:my-0 text-left'>Praxis as First Philosophy</h2>
+          <h2 className='text-5xl font-bold uppercase my-5 xl:my-0 text-left'>Praxis as First Philosophy</h2>
         </div>
         <div className='text-left flex flex-row'>
-          <div className="inline-block h-40 lg:w-6 self-stretch opacity-100 bg-jet lg:mr-8 lg:mt-1"></div>
+          <div className="inline-block h-40 xl:w-6 self-stretch opacity-100 bg-jet xl:mr-8 xl:mt-1"></div>
           <div className=''>
             <h2 className='text-xl font-normal'>6<sup>th</sup> Annual Ethics and Applied Philosophy Graduate Conference hosted by the Philosophical Union of the University of North Carolina at Charlotte</h2>
             <h2 className='text-xl font-normal pt-4'>April 26 - 28, 2024, virtually</h2>
