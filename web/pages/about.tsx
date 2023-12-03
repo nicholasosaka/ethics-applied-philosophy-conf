@@ -63,6 +63,7 @@ export default function Home() {
               <p className='font-bold'>Annual Ethics and Applied Philosophy Graduate Conference</p>
             </div>
             <p className=''>Conference organizers for the 2021 conference, in no order:</p>
+            <p>Dylan Turner</p>
             <p>Amanda Pinto</p>
             <p>Ian Hosbach</p>
             <p>and the rest of the Philosophical Union of UNC Charlotte.</p>
