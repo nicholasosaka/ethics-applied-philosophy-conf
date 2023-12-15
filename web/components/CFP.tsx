@@ -39,13 +39,13 @@ const CFP = () => {
           </ul>
         </div>
         <div className='mt-10 md:mt-0 md:w-1/2 mx-auto flex flex-col gap-y-10'>
-          <div className=' md:text-left'>
+          <div className='md:text-left'>
             <p className='font-bold uppercase text-lg'>Additional Information</p>
             <p className='text-left'>This fully virtual conference highlights the application of philosophy and ethics to concrete issues and dynamics in the world today. <i><b>Submissions on any topic within Ethics and Applied Philosophy (broadly construed) will be considered</b></i>.</p>
             <p className='text-left pt-2'>While this is a graduate conference, we welcome submissions from undergraduate and independent scholars. Accepted undergraduate work will be recognized as exemplary.</p>
             <p className='text-left pt-2'>Those interested in presenting at this conference are invited to submit <b>250-300 word abstracts</b> with 3-5 descriptive keywords. Accepted submissions should be prepared for <b>15 minute presentations and 10 minutes of Q&A</b> on the day of the conference.</p>
           </div>
-          <div className=''>
+          <div className='md: text-left'>
             <p className='font-bold uppercase text-lg'>Accessibility</p>
             <p className='text-left'>Closed captioning, webinar Q&A, slide sharing in Google Drive will be available. Contact nosaka <i>at</i> charlotte <i>dot</i> edu for additional access needs.</p>
           </div>
