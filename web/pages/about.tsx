@@ -27,6 +27,7 @@ export default function Home() {
             <p>Steve Muir</p>
             <p>Lilly Tran</p>
             <p>Billie Waller</p>
+            <p>Amanda Hassard</p>
             <p>and the rest of the Philosophical Union of UNC Charlotte.</p>
           </div>
           <div className='mt-10 mx-auto w-5/6'>
