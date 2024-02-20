@@ -9,10 +9,11 @@ const CFP = () => {
           <h2 className='text-5xl font-bold uppercase my-5 xl:my-0 text-left'>Praxis as First Philosophy</h2>
         </div>
         <div className='text-left flex flex-row'>
-          <div className="inline-block h-40 xl:w-6 self-stretch opacity-100 bg-jet xl:mr-8 xl:mt-1"></div>
+          <div className="inline-block h-50 xl:w-6 self-stretch opacity-100 bg-jet xl:mr-8 xl:mt-1"></div>
           <div className=''>
             <h2 className='text-xl font-normal'>6<sup>th</sup> Annual Ethics and Applied Philosophy Graduate Conference hosted by the Philosophical Union of the University of North Carolina at Charlotte</h2>
             <h2 className='text-xl font-normal pt-4'>April 26 - 28, 2024, virtually</h2>
+            <h3 className='text-lg font-normal pt-4'>Keynote speaker:<br/>Kim Q. Hall, Appalachian State University</h3>
           </div>
         </div>
       </div>
