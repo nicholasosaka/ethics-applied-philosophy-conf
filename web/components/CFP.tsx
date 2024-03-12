@@ -13,7 +13,11 @@ const CFP = () => {
           <div className=''>
             <h2 className='text-xl font-normal'>6<sup>th</sup> Annual Ethics and Applied Philosophy Graduate Conference hosted by the Philosophical Union of the University of North Carolina at Charlotte</h2>
             <h2 className='text-xl font-normal pt-4'>April 26 - 28, 2024, virtually</h2>
-            <h3 className='text-lg font-normal pt-4'>Keynote speaker:<br/>Kim Q. Hall, Appalachian State University</h3>
+            <h3 className='text-lg font-bold pt-4'>Keynote speakers:</h3>
+            <div className='text-lg font-normal'>
+              <h4>Kim Q. Hall, Appalachian State University</h4>
+              <h4>Kathleen Lowenstein, Michigan State University</h4>
+            </div>
           </div>
         </div>
       </div>
