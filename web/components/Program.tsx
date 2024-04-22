@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="py-5">
-            <h2 className='text-1xl font-bold'>Established Scholar Keynote (1:30pm - 3:00pm ET) — <i>Title TBA</i></h2>
+            <h2 className='text-1xl font-bold'>Established Scholar Keynote (1:30pm - 3:00pm ET) — <i>Toward a Cripistemology of Eco-Anxiety</i></h2>
             <div className='pl-10'>
               <p>Keynote: Kim Q. Hall, PhD. Professor of Philosophy @ Appalachian State University.</p>
               <p>Moderator: Billie Waller</p>
@@ -59,9 +59,9 @@ export default function Home() {
           <div className="py-5">
             <h2 className='text-1xl font-bold'>Panel A (3:00pm - 4:45pm ET) — <i>Topics in Disability Studies</i></h2>
             <div className='pl-10'>
-              <p>Speaker: Casey Doherty, <q>Reimagining Protest: Artivism in the Myalgic Encephalomyelitis (ME) Community</q></p>
-              <p>Speaker: Rosalie Looijaard: <q>Against Disability Generalism: Navigating Chronic Pain Through Models of Disability</q></p>
-              <p>Speaker: Kilah Tabatsky: <q>Defining Disability Through the Lens of Solidarity</q></p>
+              <p>Speaker: Casey Doherty (Independent): <q>Reimagining Protest: Artivism in the Myalgic Encephalomyelitis (ME) Community</q></p>
+              <p>Speaker: Rosalie Looijaard (Boston University): <q>Against Disability Generalism: Navigating Chronic Pain Through Models of Disability</q></p>
+              <p>Speaker: Kilah Tabatsky (Siena College): <q>Defining Disability Through the Lens of Solidarity</q></p>
               <p>Moderator: Amanda Hassard</p>
             </div>
           </div>
@@ -69,9 +69,9 @@ export default function Home() {
           <div className="py-5">
             <h2 className='text-1xl font-bold'>Panel B (4:50pm - 6:20pm ET) — <i>Theorizing Action</i></h2>
             <div className='pl-10'>
-              <p>Speaker: Corey McKibbin, <q>Decolonizing Time</q></p>
-              <p>Speaker: Simon Francesco Di Rupo: <q>The importance of interfaith dialogue in approaching environmental ethics. Raimon Panikkar and Pope Francis in comparison</q></p>
-              <p>Speaker: Scott Ryan Maybell: <q>Brandom in the Wild: Recognitive Analysis and Recollective Praxis</q></p>
+              <p>Speaker: Corey McKibbin (Carleton University): <q>Decolonizing Time</q></p>
+              <p>Speaker: Simon Francesco Di Rupo (Università degli Studi di Perugia): <q>The importance of interfaith dialogue in approaching environmental ethics. Raimon Panikkar and Pope Francis in comparison</q></p>
+              <p>Speaker: Scott Ryan Maybell (Independent): <q>Brandom in the Wild: Recognitive Analysis and Recollective Praxis</q></p>
               <p>Moderator: Pennda Arami</p>
             </div>
           </div>
@@ -91,9 +91,9 @@ export default function Home() {
           <div className="py-5">
             <h2 className='text-1xl font-bold'>Panel C (11:00am - 12:30pm ET) — <i>Specificity in Praxis</i></h2>
             <div className='pl-10'>
-              <p>Speaker: Emily Lange, <q>Making Better Worlds: Worldbuilding as Feminist Theory and Practice</q></p>
-              <p>Speaker: Jack R Leff: <q>On Activist Science</q></p>
-              <p>Speaker: Dhritiman Barman: <q>The Shaping and Reshaping of a Legal Cannabis Market in Southwest Virginia</q></p>
+              <p>Speaker: Emily Lange (Marquette University): <q>Making Better Worlds: Worldbuilding as Feminist Theory and Practice</q></p>
+              <p>Speaker: Jack R Leff (Virginia Tech): <q>On Activist Science</q></p>
+              <p>Speaker: Dhritiman Barman (Virginia Tech): <q>The Shaping and Reshaping of a Legal Cannabis Market in Southwest Virginia</q></p>
               <p>Moderator: Nicholas Osaka</p>
             </div>
           </div>
@@ -101,9 +101,9 @@ export default function Home() {
           <div className="py-5">
             <h2 className='text-1xl font-bold'>Panel D (1:20pm - 2:50pm ET) — <i>Affect & Injustice</i></h2>
             <div className='pl-10'>
-              <p>Speaker: Erica Bigelow, <q>Felt Weapons: Wielding Affect to Harm</q></p>
-              <p>Speaker: Triston Hanna: <q>Degrees of Emotional Fit: A Range View</q></p>
-              <p>Speaker: Roxy Alexander: <q>Epistemic Injustice and ADHD Girls in the K-12 Education System</q></p>
+              <p>Speaker: Erica Bigelow (University of Washington): <q>Felt Weapons: Wielding Affect to Harm</q></p>
+              <p>Speaker: Triston Hanna (Arizona State University): <q>Degrees of Emotional Fit: A Range View</q></p>
+              <p>Speaker: Roxy Alexander (Independent): <q>Epistemic Injustice and ADHD Girls in the K-12 Education System</q></p>
               <p>Moderator: Knaviyah Howard</p>
             </div>
           </div>
@@ -135,9 +135,9 @@ export default function Home() {
           <div className="py-5">
             <h2 className='text-1xl font-bold'>Panel E (11:00am - 12:30pm ET) — <i>Topics in Bioethics</i></h2>
             <div className='pl-10'>
-              <p>Speaker: Daniel Gaines, <q>Transgender Healthcare, Depathologization, and the Gender Dysphoria Diagnosis</q></p>
-              <p>Speaker: Xiu Lim: <q>Could (some) religious leaders have a special obligation to morally bioenhance? Examining the use of libido-reducing drugs to promote celibacy</q></p>
-              <p>Speaker: Natalia Nealon: <q>Epistemic Shortcuts and Unjust Diagnostic Practices</q></p>
+              <p>Speaker: Daniel Gaines (Western Michigan University): <q>Transgender Healthcare, Depathologization, and the Gender Dysphoria Diagnosis</q></p>
+              <p>Speaker: Xiu Lim (Independent): <q>Could (some) religious leaders have a special obligation to morally bioenhance? Examining the use of libido-reducing drugs to promote celibacy</q></p>
+              <p>Speaker: Natalia Nealon (University of California, Irvine): <q>Epistemic Shortcuts and Unjust Diagnostic Practices</q></p>
               <p>Moderator: Steve Muir</p>
             </div>
           </div>
@@ -145,9 +145,9 @@ export default function Home() {
           <div className="py-5">
             <h2 className='text-1xl font-bold'>Panel F (1:20pm - 2:50pm ET) — <i>Feminist Perspectives</i></h2>
             <div className='pl-10'>
-              <p>Speaker: Margaret Murphy, <q>Nara Smith: A Case Study in Black Motherhood and Trad Wives</q></p>
-              <p>Speaker: Mary Peterson and Kate Yuan: <q>Ethics is Failing Ethics: Citation Standards for Sexual Misconduct in the Field</q></p>
-              <p>Speaker: Neha Nandakumar: <q>Taking Care of Yourself in a Workist Society</q></p>
+              <p>Speaker: Margaret Murphy (American University): <q>Nara Smith: A Case Study in Black Motherhood and Trad Wives</q></p>
+              <p>Speaker: Mary Peterson and Kate Yuan (Universität Hamburg): <q>Ethics is Failing Ethics: Citation Standards for Sexual Misconduct in the Field</q></p>
+              <p>Speaker: Neha Nandakumar (Simon Fraser University): <q>Taking Care of Yourself in a Workist Society</q></p>
               <p>Moderator: Lilly Tran</p>
             </div>
           </div>
@@ -156,9 +156,9 @@ export default function Home() {
           <div className="py-5">
             <h2 className='text-1xl font-bold'>Panel G (3:00pm - 4:30pm ET) — <i>Historical Methodologies</i></h2>
             <div className='pl-10'>
-              <p>Speaker: Jonmarc Bennett, <q>Tosaka Jun on Cultural Freedom</q></p>
-              <p>Speaker: Ethan Gettes: <q>The Fractured Totality: Benjamin, Hegel, and the Politics of Universal History</q></p>
-              <p>Speaker: Spencer Heitman: <q>Blaming Backward: On Moral Evaluations of Historical Predecessors</q></p>
+              <p>Speaker: Jonmarc Bennett (Marquette University): <q>Tosaka Jun on Cultural Freedom</q></p>
+              <p>Speaker: Ethan Gettes (Fordham University): <q>The Fractured Totality: Benjamin, Hegel, and the Politics of Universal History</q></p>
+              <p>Speaker: Spencer Heitman (University of Arkansas): <q>Blaming Backward: On Moral Evaluations of Historical Predecessors</q></p>
               <p>Moderator: Carson Saffold</p>
             </div>
           </div>
