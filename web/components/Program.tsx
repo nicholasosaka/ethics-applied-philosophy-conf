@@ -154,7 +154,7 @@ export default function Home() {
 
 
           <div className="py-5">
-            <h2 className='text-1xl font-bold'>Panel G (11:00am - 12:30pm ET) — <i>Historical Methodologies</i></h2>
+            <h2 className='text-1xl font-bold'>Panel G (3:00pm - 4:30pm ET) — <i>Historical Methodologies</i></h2>
             <div className='pl-10'>
               <p>Speaker: Jonmarc Bennett, <q>Tosaka Jun on Cultural Freedom</q></p>
               <p>Speaker: Ethan Gettes: <q>The Fractured Totality: Benjamin, Hegel, and the Politics of Universal History</q></p>
