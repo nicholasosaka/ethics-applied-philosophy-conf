@@ -146,7 +146,7 @@ export default function Home() {
             <h2 className='text-1xl font-bold'>Panel F (1:20pm - 2:50pm ET) — <i>Feminist Perspectives</i></h2>
             <div className='pl-10'>
               <p>Speaker: Margaret Murphy (American University): <q>Nara Smith: A Case Study in Black Motherhood and Trad Wives</q></p>
-              <p>Speaker: Mary Peterson and Kate Yuan (Universität Hamburg): <q>Ethics is Failing Ethics: Citation Standards for Sexual Misconduct in the Field</q></p>
+              <p>Speaker: Mary Peterson (Universität Hamburg) and Kate Yuan (Yale University): <q>Ethics is Failing Ethics: Citation Standards for Sexual Misconduct in the Field</q></p>
               <p>Speaker: Neha Nandakumar (Simon Fraser University): <q>Taking Care of Yourself in a Workist Society</q></p>
               <p>Moderator: Lilly Tran</p>
             </div>
