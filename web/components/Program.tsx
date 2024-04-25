@@ -109,9 +109,9 @@ export default function Home() {
           </div>
 
           <div className="py-5">
-            <h2 className='text-1xl font-bold'>Alumna Keynote (3:00pm - 4:30pm ET) — <i>Title TBA</i></h2>
+            <h2 className='text-1xl font-bold'>Alumna Keynote (3:00pm - 4:30pm ET) — <i>Engaging the Margins: Exploring the Intersections of Critical Mental Health and Bioethics</i></h2>
             <div className='pl-10'>
-              <p>Keynote: Kathleen Lowenstein. PhD Student, Philosophy, Michigan State University.</p>
+              <p>Keynote: Kathleen Lowenstein. PhD Candidate, Philosophy, Michigan State University.</p>
               <p>Moderator: Steve Muir</p>
             </div>
           </div>
