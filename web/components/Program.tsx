@@ -41,7 +41,7 @@ export default function Home() {
           <h1 className='text-3xl font-bold pb-2'>Day 1 Schedule (April 26)</h1>
 
           <div className="py-5">
-            <h2 className='text-1xl font-bold'>Opening Remarks (1:15pm - 3:00pm ET)</h2>
+            <h2 className='text-1xl font-bold'>Opening Remarks (1:15pm - 1:30pm ET)</h2>
             <div className='pl-10'>
               <p>Opening remarks delivered by Philosophical Union of UNC Charlotte Co-Presidents</p>
               <p>Steve Muir and Nicholas Osaka</p>
