@@ -92,8 +92,8 @@ export default function Home() {
             <h2 className='text-1xl font-bold'>Panel C (11:00am - 12:30pm ET) — <i>Specificity in Praxis</i></h2>
             <div className='pl-10'>
               <p>Speaker: Emily Lange (Marquette University): <q>Making Better Worlds: Worldbuilding as Feminist Theory and Practice</q></p>
-              <p>Speaker: Jack R Leff (Virginia Tech): <q>On Activist Science</q></p>
               <p>Speaker: Dhritiman Barman (Virginia Tech): <q>The Shaping and Reshaping of a Legal Cannabis Market in Southwest Virginia</q></p>
+              <p>Speaker: Jack R Leff (Virginia Tech): <q>On Activist Science</q></p>
               <p>Moderator: Nicholas Osaka</p>
             </div>
           </div>
