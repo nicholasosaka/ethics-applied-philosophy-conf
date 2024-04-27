@@ -101,9 +101,9 @@ export default function Home() {
           <div className="py-5">
             <h2 className='text-1xl font-bold'>Panel D (1:20pm - 2:50pm ET) — <i>Affect & Injustice</i></h2>
             <div className='pl-10'>
+              <p>Speaker: Roxy Alexander (Independent): <q>Epistemic Injustice and ADHD Girls in the K-12 Education System</q></p>
               <p>Speaker: Erica Bigelow (University of Washington): <q>Felt Weapons: Wielding Affect to Harm</q></p>
               <p>Speaker: Triston Hanna (Arizona State University): <q>Degrees of Emotional Fit: A Range View</q></p>
-              <p>Speaker: Roxy Alexander (Independent): <q>Epistemic Injustice and ADHD Girls in the K-12 Education System</q></p>
               <p>Moderator: Knaviyah Howard</p>
             </div>
           </div>
