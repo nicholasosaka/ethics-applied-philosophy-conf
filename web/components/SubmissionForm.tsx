@@ -34,8 +34,8 @@ const Form = () => {
                 <input name='title' id='title' type="text" className='form-input mt-2' required/>
             </div>
             <div className='grid my-5'>
-                <label htmlFor="abstract" className='text-xl font-semibold'>Abstract</label>
-                <p className='font-light tracking-tight'>Paste your abstract (~500 words) below</p>
+                <label htmlFor="abstract" className='text-xl font-semibold'>Paper</label>
+                <p className='font-light tracking-tight'>Paste your paper (~3,000 words) below</p>
                 <textarea name='abstract' id='abstract' className='form-textarea resize-y mt-2 h-96' required/>
             </div>
             <div className='grid my-5'>
